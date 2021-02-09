@@ -26,7 +26,7 @@ cmake --build .
 On Windows, you will likely need to specify the directories containing GLUT and GLEW in CMAKE_PREFIX_PATH so that cmake can find them.
 
 ``` bash
-cmake .. -DCMAKE_PERFIX_PATH:PATH=/path/to/libs
+cmake .. -DCMAKE_PREFIX_PATH:PATH=/path/to/libs
 ```
 
 You will also need to copy the DLLs to the build directory if they are not available globally.
